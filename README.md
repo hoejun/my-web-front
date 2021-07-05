@@ -1,7 +1,5 @@
-라우팅
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-\
-차=
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more informati
-ㅊ
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 라우팅
+react-router-dom
+
+### 컴포넌트
+- 최상위 컴포넌트는 한개로만 구성한다.
