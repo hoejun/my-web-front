@@ -11,4 +11,14 @@ react-router-dom
 - 그리기 위한 데이터 형태를 가공하는데 까다로운 작업.
 - npm echarts/echarts-for-react 2개 라이브러리 설치해서 사용하자.
 - echarts 라이브러리에서는 코드엔진만 사용. 그래프만 사용(지금 필요한거)
-- series 옵션에서 'graph' 입력
+- series 옵션에서 'graph' 입력, 옵션 셋팅은 되어있음.
+- 옵션 하나만 넣어줘도 바인딩됨.
+- echarts-for-react에서 옵션과 이벤트 함수를 넣어준다.
+- 데이터나 옵션 중 하나만 어긋나도 에러 발생.
+- 데이터 형태 중요
+- data(노드), links(데이터의 연결 선)가 있어야함.
+- data에서 id, name, value값에 따라 원이 그려짐.
+- name은 없어도 되나, 개발 힘들어짐...
+- series에서 id, name, value 필수값
+- x, y축은 처음 데이터 생성시 위치시키는 값. 이후 움직이는 위치는 알아서 잡아줌.
+- 
