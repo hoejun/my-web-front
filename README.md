@@ -22,3 +22,6 @@ react-router-dom
 - series에서 id, name, value 필수값
 - x, y축은 처음 데이터 생성시 위치시키는 값. 이후 움직이는 위치는 알아서 잡아줌.
 - 
+
+### 리액트 생명주기
+![스크린샷 2021-05-18 오후 2 44 43](https://user-images.githubusercontent.com/45154233/125095718-71817280-e10f-11eb-8453-e2ac45d1bd21.png)
